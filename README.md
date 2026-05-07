@@ -5,8 +5,8 @@ The content is organized by day (Day 1, Day 2, etc.), following the learning pro
 
 ## Structure
 
-* day01-DSU/         # nothing
-* day02-MST, DP/     # 169, 170
+* day01-DSU/         # -
+* day02-MST, DP/     # 169✅, 170✅
 
 ## Language
 
