@@ -1,38 +1,38 @@
 #include <bits/stdc++.h>
-#include <cstdlib>
 using namespace std;
-#define int long long
-vector<int>co;
-vector<int>dp;
-const int INF=4e9;
 
-int32_t main(){
-    cin.tie(0);
+#define int long long
+
+const int INF = 9e18;
+
+int32_t main() {
     ios::sync_with_stdio(0);
+    cin.tie(0);
 
     int n;
-    cin>>n;
+    cin >> n;
 
-    co.resize(n+1);
-    dp.assign(n+1, INF);
-    dp[0]=0;
-    dp[1]=0;
+    vector<int> co(n + 1);
+    vector<int> dp(n + 1, INF);
 
-    for(int i=0; i<n; i++){
-        cin>>co[i+1];
+    for (int i = 1; i <= n; i++) {
+        cin >> co[i];
     }
 
-    co[0]=0;
+    dp[1] = 0;
 
-    for(int i=2; i<=n; i++){
-        int a=abs(co[i]-co[i-1]);
-        int b=abs(co[i]-co[i-2]);
-        // cout << "a=" << a << "\n";
-        dp[i]=min(a+dp[i-1], b+dp[i-2]);
+    for (int i = 2; i <= n; i++) {
+
+        dp[i] = min(dp[i],
+                    dp[i - 1] + abs(co[i] - co[i - 1]));
+
+        if (i > 2) {
+            dp[i] = min(dp[i],
+                        dp[i - 2] + abs(co[i] - co[i - 2]));
+        }
     }
 
     cout << dp[n];
 
-
-    return 0;  
+    return 0;
 }
