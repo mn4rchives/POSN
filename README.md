@@ -7,7 +7,7 @@ The content is organized by day (Day 1, Day 2, etc.), following the learning pro
 
 * day01-DSU/         # -
 * day02-MST, DP/     # 169✅, 170✅
-* day03-DP/          # 210, 211, 212, 213, 228
+* day03-DP/          # 210✅, 211, 212, 213, 228
 
 ## Language
 
