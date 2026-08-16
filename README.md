@@ -5,9 +5,15 @@ The content is organized by day (Day 1, Day 2, etc.), following the learning pro
 
 ## Structure
 
-* day01-DSU/         # -
-* day02-MST, DP/     # 169✅, 170✅
-* day03-DP/          # 210✅, 211, 212, 213, 228
+* day01-DSU/
+* day02-MST, DP/ 
+* day03-DP/  
+* day04-DP/
+* day05-DP, Greedy/
+* day06-DP, Greedy/
+* day07-Greedy, BFS/
+* day08-DP, Greedy/
+* day09-DP, Greedy/
 
 ## Language
 
