@@ -14,6 +14,7 @@ The content is organized by day (Day 1, Day 2, etc.), following the learning pro
 * day07-Greedy, BFS/
 * day08-DP, Greedy/
 * day09-DP, Greedy/
+* day10-DP(2D)/
 
 ## Language
 
